@@ -1,6 +1,6 @@
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -84,7 +84,7 @@ To run tests, run the following command: npx hint . and npx stylelint "\*_/_.{cs
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[]**
+- [ ] **[blog]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
