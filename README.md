@@ -60,7 +60,7 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder using the following command; git clone https://github.com/Leeoasis/Math-Magicians.gitt
+Clone this repository to your desired folder using the following command; git clone https://github.com/Leeoasis/Math-Magicians.git
 ### Run tests
 
 To run tests, run the following command: npx hint . and npx stylelint "\*_/_.{css,scss}" and npx eslint .
