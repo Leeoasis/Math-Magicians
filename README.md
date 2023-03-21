@@ -6,7 +6,10 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -60,17 +63,31 @@
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+Visual Studio Code
+Node.js
+
 ### Setup
 
 To run the project, follow the steps below:
 
 1. git clone https://github.com/Leeoasis/Math-Magicians.git.
 2. cd Math-MAgicians
-3. open with your code editor and run : npm start
+
+### Install
+npm install
+
+### Usage
+npm start
 
 ### Run tests
 
-To run tests, run the following command: npx hint . and npx stylelint "\*_/_.{css,scss}" and npx eslint .
+To run tests, run the following command: 
+
+npx hint . and npx stylelint "\*_/_.{css,scss}" and npx eslint .
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
