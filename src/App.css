@@ -9,6 +9,7 @@
 
 .calculator {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 8%;
   width: 500px;
   border: none;
 }
@@ -68,6 +69,11 @@
 .digits button:nth-child(13) {
   width: calc(66.66% - 2px);
   margin-right: 0;
+}
+
+.operators button:hover {
+  background-color: rgb(26, 132, 132);
+  cursor: pointer;
 }
 
 .operators button:nth-child(5) {

@@ -75,7 +75,7 @@ Node.js
 To run the project, follow the steps below:
 
 1. git clone https://github.com/Leeoasis/Math-Magicians.git.
-2. cd Math-MAgicians
+2. cd Math-Magicians
 
 ### Install
 npm install
