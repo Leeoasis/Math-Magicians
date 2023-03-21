@@ -87,7 +87,7 @@ npm start
 
 To run tests, run the following command: 
 
-npx hint . and npx stylelint "\*_/_.{css,scss}" and npx eslint .
+npx hint . and npx stylelint "\*_/_.{css,scss}" , npx eslint . and npm test
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,7 +100,7 @@ npx hint . and npx stylelint "\*_/_.{css,scss}" and npx eslint .
 
 - GitHub: [@githubhandle](https://github.com/Leeoasis)
 - Twitter: [@twitterhandle](https://twitter.com/gudo_leslie)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leslie-gudo-b08a4)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leslie-gudo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

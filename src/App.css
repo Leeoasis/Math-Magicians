@@ -15,7 +15,7 @@
 }
 
 .display {
-  background-color: rgb(14, 14, 41);
+  background-color: #adadad;
   color: #fff;
   height: 50px;
   display: flex;
@@ -33,7 +33,20 @@
   justify-content: flex-end;
 }
 
+.my-buttons {
+  border: none;
+  outline: none;
+}
+
+.comma {
+  border-left: 1px solid #d3d3d3 !important;
+  border-right: none; 
+  border-top: none; 
+  border-bottom: none; 
+}
+
 .digits {
+  background-color: #d3d3d3;
   width: calc(75% - 5px);
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +63,7 @@
 }
 
 .operators {
+  background-color: #d3d3d3;
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -57,7 +71,7 @@
 }
 
 .operators button {
-  background-color: rgb(39, 163, 163);
+  background-color: #f28c28;
   height: 50px;
   margin: 0 0 2px 0;
   display: flex;
