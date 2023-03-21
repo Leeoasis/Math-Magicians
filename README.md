@@ -1,6 +1,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Math-Magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -15,6 +16,7 @@
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
+# 📖 [Math-Magicians] <a name="about-project"></a>
 
 **[Math-Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to  make simple calculations and read a random math-related quote.
 
