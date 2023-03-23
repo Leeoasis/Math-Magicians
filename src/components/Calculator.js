@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
+// Define the initial object
 const obj = {
   total: 0,
   next: '',
@@ -8,8 +9,10 @@ const obj = {
 };
 
 function Calculator() {
+  // Set the useState hook
   const [object, setObject] = useState(obj);
 
+  // Set the event handler
   const stateHandler = (e) => {
     setObject(calculate(object, e.target.textContent));
   };
