@@ -93,3 +93,39 @@
 .operators button:nth-child(5) {
   order: -1;
 }
+
+#quote-box {
+  margin: 0 auto;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.quote {
+  margin-left: 0.8rem;
+  font-size: 1rem;
+}
+
+#author {
+  text-align: left;
+}
+
+#text {
+  margin-left: 1rem;
+  padding-top: 50px;
+}
+
+.spinner {
+  animation: spin 0.7s linear infinite;
+}
+
+.error {
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
