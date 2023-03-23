@@ -124,3 +124,8 @@
   font-size: 2rem;
   font-weight: bold;
 }
+
+@keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
