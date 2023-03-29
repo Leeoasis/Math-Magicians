@@ -9,7 +9,7 @@ body {
 .calculator-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items:first baseline;
+  align-items: first baseline;
 }
 
 .calculator {
