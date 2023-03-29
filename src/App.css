@@ -2,9 +2,16 @@
   box-sizing: border-box;
 }
 
-.my-app {
+body {
+  margin: auto 2rem auto 2rem;
+  background-color: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.calculator-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: first baseline;
 }
 
 .calculator {
@@ -95,7 +102,7 @@
 }
 
 #quote-box {
-  margin: 0 auto;
+  margin: 10rem auto;
   width: 600px;
   background-color: white;
   border-radius: 5px;
@@ -128,4 +135,36 @@
 @keyframes spin {
   from { transform: rotate(0); }
   to { transform: rotate(360deg); }
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrapper h1 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: red;
+  text-decoration: underline;
+  transform: scale(1.1);
 }
