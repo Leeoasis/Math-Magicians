@@ -35,24 +35,28 @@ function Calculator() {
 
   return (
     <div className="my-app">
-      <div className="calculator">
-        <div className="display">
-          {object.total}
-          {object.operation}
-          {object.next}
+      <div className="calculator-wrapper">
+        <h2>Let&apos;s do some math!</h2>
+        <div className="calculator">
+          <div className="display">
+            {object.total}
+            {object.operation}
+            {object.next}
 
-        </div>
-
-        <div className="operator-digits-wrapper">
-          <div className="digits">
-            {digitButtons}
-            <button className=" comma" type="button" onClick={stateHandler}>.</button>
           </div>
-          <div className="operators">
-            {operatorButtons}
+
+          <div className="operator-digits-wrapper">
+            <div className="digits">
+              {digitButtons}
+              <button className=" comma" type="button" onClick={stateHandler}>.</button>
+            </div>
+            <div className="operators">
+              {operatorButtons}
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 }
