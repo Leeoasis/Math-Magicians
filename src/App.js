@@ -6,7 +6,6 @@ import Home from './Routes/Home';
 import Quote from './Routes/Quote';
 import Header from './components/Header';
 import CalRoute from './Routes/CalRoute';
-import NotMatch from './Routes/NotMatch';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="quote" element={<Quote />} />
         <Route path="calculator" element={<CalRoute />} />
-        <Route path="*" element={<NotMatch />} />
       </Routes>
     </BrowserRouter>
   );
