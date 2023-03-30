@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto 2rem auto 2rem;
+  background-color: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.calculator-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+.calculator {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 8%;
+  width: 500px;
+  border: none;
+}
+
+.display {
+  background-color: #adadad;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.operator-digits-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.my-buttons {
+  border: none;
+  outline: none;
+}
+
+.comma {
+  border-left: 1px solid #d3d3d3 !important;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.digits {
+  background-color: #d3d3d3;
+  width: calc(75% - 5px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  width: calc(33.33% - 2px);
+  height: 50px;
+  margin: 0 2px 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.operators {
+  background-color: #d3d3d3;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.operators button {
+  background-color: #f28c28;
+  height: 50px;
+  margin: 0 0 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.digits button:nth-child(13) {
+  width: calc(66.66% - 2px);
+  margin-right: 0;
+}
+
+.operators button:hover {
+  background-color: rgb(26, 132, 132);
+  cursor: pointer;
+}
+
+.operators button:nth-child(5) {
+  order: -1;
+}
+
+#quote-box {
+  margin: 10rem auto;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.quote {
+  margin-left: 0.8rem;
+  font-size: 1rem;
+}
+
+#author {
+  text-align: left;
+}
+
+#text {
+  margin-left: 1rem;
+  padding-top: 50px;
+}
+
+.spinner {
+  animation: spin 0.7s linear infinite;
+}
+
+.error {
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrapper h1 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: red;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
