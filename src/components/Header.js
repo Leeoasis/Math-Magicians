@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export default function Header() {
   return (
     <nav>
-      <h1>Math Magicians</h1>
+      <h1 className="no-display">Math Magicians</h1>
       <ul>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/calculator">Calculator</NavLink>

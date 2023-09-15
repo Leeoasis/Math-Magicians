@@ -10,7 +10,9 @@ body {
 
 .calculator-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
   align-items: first baseline;
 }
 
@@ -151,6 +153,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 2em 2em;
+  flex-wrap: wrap;
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -208,4 +211,26 @@ nav a.active {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .no-display {
+    display: none;
+  }
+
+  .calculator-wrapper {
+    gap: 1rem;
+  }
+
+  .home-container {
+    padding: 2em 3em 2em 1.5em;
+    gap: 1px;
+  }
+
+  .home-container h2 {
+    width: 20rem;
+    padding: 1rem;
+  }
+ 
+}
+
 

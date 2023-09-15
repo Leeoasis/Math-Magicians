@@ -36,7 +36,7 @@ function Calculator() {
   return (
     <div className="my-app">
       <div className="calculator-wrapper">
-        <h2>Let&apos;s do some math!</h2>
+        <h2 className="title">Let&apos;s do some math!</h2>
         <div className="calculator">
           <div className="display">
             {object.total}
