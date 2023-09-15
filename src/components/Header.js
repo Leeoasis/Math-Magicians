@@ -1,11 +1,15 @@
 import React from 'react';
-import Navbar from './Navbar';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <div className="header-wrapper">
+    <nav>
       <h1>Math Magicians</h1>
-      <Navbar />
-    </div>
+      <ul>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/calculator">Calculator</NavLink>
+        <NavLink to="/quote">Quote</NavLink>
+      </ul>
+    </nav>
   );
 }

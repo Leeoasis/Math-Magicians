@@ -147,24 +147,65 @@ body {
   margin: 0;
 }
 
-.nav-links {
+nav {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 5px;
+  justify-content: space-between;
+  padding: 2em 2em;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.nav-links li {
-  list-style-type: none;
+nav ul {
+  display: flex;
+  gap: 20px;
 }
 
-.nav-links li a {
-  transition: all 0.3s ease;
+nav a {
+  color: rgb(44, 44, 44);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.nav-links li a:hover,
-.nav-links li a.active {
-  color: red;
-  text-decoration: underline;
-  transform: scale(1.1);
+nav a.active {
+  color: rgb(43, 140, 173);
+  border-bottom: 2px solid rgb(43, 140, 173);
 }
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em 10em;
+  font-size: 1.3em;
+  gap: 40px;
+}
+
+.home-container h2 {
+  font-size: 2em;
+  width: 60%;
+  background-color: rgb(43, 140, 173);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
